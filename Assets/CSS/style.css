@@ -106,11 +106,18 @@ section#hero{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: rgba(247, 242, 242, 0.962);
 }
 #hero h1{
+   
     font-size: 3rem;
     margin-bottom: 1rem;
+}
+h1{
+    color: aqua;
+}
+h1:hover{
+    color: crimson;
 }
 
 @media (max-width:692px) {
